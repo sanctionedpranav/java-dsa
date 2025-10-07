@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "BeginnerFiglet",
+      "request": "launch",
+      "mainClass": "BeginnerFiglet",
+      "projectName": "java-dsa_4df79ce9"
+    },
+    {
+      "type": "java",
       "name": "Current File",
       "request": "launch",
       "mainClass": "${file}"
