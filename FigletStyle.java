@@ -14,7 +14,7 @@ public class FigletStyle {
             return;
         }
 
-        String input = String.join("", args).toUpperCase();
+        String input = String.join(" ", args).toUpperCase();
 
         printAscii(input);
     }
