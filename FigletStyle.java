@@ -107,7 +107,7 @@ public class FigletStyle {
                     if (pattern != null) {
                         System.out.print(pattern[row] + "  ");
                     } else {
-                        System.out.print("?????  "); 
+                        System.out.print("???????????  "); 
                     }
                 }
             }
