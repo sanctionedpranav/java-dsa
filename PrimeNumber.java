@@ -31,5 +31,6 @@ public class PrimeNumber {
       }
     }
     System.out.println("Prime Number");
+    scanner.close();
   }
 }
