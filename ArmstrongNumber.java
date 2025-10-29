@@ -21,7 +21,7 @@ public class ArmstrongNumber {
     if (dupNumber == armstrongNumber) {
       System.out.println("Armstrong Number");
     } else {
-      System.out.println("Not an Armstrong Number" + num);
+      System.out.println("Not an Armstrong Number");
     }
 
     System.out.println("ArmStrong No: " + armstrongNumber);
