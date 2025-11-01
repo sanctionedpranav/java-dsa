@@ -2,7 +2,7 @@ public class RotateNumber {
   public static void main(String[] args) {
     int num = 12345;
     int originalNum = num;
-    int rotation = 1;
+    int rotation = 2;
     int left = 0;
     int right = 0;
     int count = 0;
