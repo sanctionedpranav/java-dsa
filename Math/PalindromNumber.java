@@ -1,3 +1,4 @@
+package Math;
 public class PalindromNumber {
   public static void main(String[] args) {
     int num = 12121;

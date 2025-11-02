@@ -1,3 +1,4 @@
+package Math;
 public class SpyNumber {
   public static void main(String[] args) {
     int num = 1124;

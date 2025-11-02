@@ -1,3 +1,4 @@
+package Math;
 public class ArmstrongNumber {
   public static void main(String[] args) {
     int num = 153;

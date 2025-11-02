@@ -1,3 +1,4 @@
+package Math;
 class AddDigits {
   public static void main(String[] args) {
     int num = 38;

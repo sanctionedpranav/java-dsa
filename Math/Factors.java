@@ -1,3 +1,4 @@
+package Math;
 public class Factors {
   public static void main(String[] args) {
     int num = 36;

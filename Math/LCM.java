@@ -1,3 +1,4 @@
+package Math;
 public class LCM {
   public static void main(String[] args) {
     int num1 = 4;

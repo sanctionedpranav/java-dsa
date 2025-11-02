@@ -1,3 +1,4 @@
+package Math;
 public class HappyNumber {
   public static void main(String[] args) {
     int num = 2;

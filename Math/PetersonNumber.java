@@ -1,3 +1,4 @@
+package Math;
 public class PetersonNumber {
   public static void main(String[] args) {
     int num = 145;

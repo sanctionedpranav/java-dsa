@@ -1,3 +1,4 @@
+package Math;
 public class AutomorphicNumber {
   public static void main(String[] args) {
     int num = 6;
