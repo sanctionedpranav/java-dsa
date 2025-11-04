@@ -1,20 +1,32 @@
 package Recursion;
 
 public class Tables {
-  static void printTable(int num, int end) {
+  // static void printTable(int num, int end) {
+  // if (end == 0) {
+  // return;
+  // }
+
+  // printTable(num, end - 1);
+
+  // System.out.println(num + " x " + end + " = " + (num * end));
+  // }
+
+  static String printTable(int num, int end) {
     if (end == 0) {
-      return;
+      return "";
     }
 
-    printTable(num, end - 1);
+    String table = num + " x " + end + " = " + (num * end) + "\n";
 
-    System.out.println(num + " x " + end + " = " + (num * end));
+    return table + printTable(num, end - 1);
+
   }
 
   public static void main(String[] args) {
-    int num = 2;
+    int num = 5;
     int end = 10;
 
-    printTable(num, end);
+    String result = printTable(num, end);
+    System.out.println(result);
   }
 }
