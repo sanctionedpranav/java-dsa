@@ -4,7 +4,7 @@ public class RemoveAdjChar {
 
   static String removeAdjChar(String str) {
     if (str.length() <= 1) {
-      ret1`urn "";
+      return "";
     }
 
     String updatedString = removeAdjChar(str.substring(1));

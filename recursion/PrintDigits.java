@@ -5,7 +5,7 @@ public class PrintDigits {
 
 
 
-    printDigits(num, count);
+    // printDigits(num, count);
   }
 
   public static void main(String[] args) {
