@@ -2,21 +2,23 @@ package Recursion;
 
 public class ReplaceChar {
   static String replaceChar(String str) {
-    if (str.length() == 0) {
+    if (str.isEmpty()) {
       return "";
     }
 
-    String replacedString = replaceChar(str.substring(0, str.length() - 1));
+    String replacedStr = replaceChar(str.substring(1));
 
-    char lastChar = str.charAt(str.length() - 1);
+    char firstChar = str.charAt(0);
 
-    if (lastChar == 'l') {
-      replacedString = replacedString + "x";
+    if (firstChar == 'l') {
+      replacedStr = "x" + replacedStr;
     } else {
-      replacedString = replacedString + lastChar;
+      replacedStr = firstChar + replacedStr;
     }
 
-    return replacedString;
+    System.out.println(firstChar);
+
+    return replacedStr;
   }
 
   public static void main(String[] args) {
