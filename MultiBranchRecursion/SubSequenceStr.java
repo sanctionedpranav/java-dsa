@@ -1,3 +1,5 @@
+package MultiBranchRecursion;
+
 public class SubSequenceStr {
   static void subSeq(String str, String result) {
     if (str.isEmpty()) {
