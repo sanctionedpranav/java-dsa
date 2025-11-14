@@ -1,4 +1,4 @@
-package Recursion;
+package recursion;
 
 public class CharBtwAdjChar {
   static String charBtwAdjChar(String str) {

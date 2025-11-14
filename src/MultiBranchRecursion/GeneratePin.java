@@ -1,4 +1,4 @@
-package MultiBranchRecursion;
+package multiBranchRecursion;
 
 public class GeneratePin {
   static void generatePin(int length, String result) {

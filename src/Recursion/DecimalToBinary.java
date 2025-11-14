@@ -1,4 +1,4 @@
-package Recursion;
+package recursion;
 
 public class DecimalToBinary {
   static void convertDecimalToBinary(int num, String result) {

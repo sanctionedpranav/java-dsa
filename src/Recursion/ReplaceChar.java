@@ -1,4 +1,4 @@
-package Recursion;
+package recursion;
 
 public class ReplaceChar {
   static String replaceChar(String str) {

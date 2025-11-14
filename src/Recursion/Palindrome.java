@@ -1,4 +1,4 @@
-package Recursion;
+package recursion;
 
 public class Palindrome {
   static boolean isPalindrome(int num, int reversedNum, int originalNum) {

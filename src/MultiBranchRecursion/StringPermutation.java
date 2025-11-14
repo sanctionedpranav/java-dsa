@@ -1,4 +1,4 @@
-package MultiBranchRecursion;
+package multiBranchRecursion;
 
 public class StringPermutation {
   static void permute(String str, String result) {

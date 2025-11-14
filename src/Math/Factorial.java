@@ -1,4 +1,4 @@
-package Math;
+package math;
 public class Factorial {
   public static void main(String[] args) {
     int num = 15;

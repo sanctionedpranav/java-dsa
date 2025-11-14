@@ -1,4 +1,4 @@
-package Math;
+package math;
 public class FibonacciSeries {
   public static void main(String[] args) {
     int num = 10;

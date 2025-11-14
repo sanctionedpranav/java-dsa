@@ -1,4 +1,4 @@
-package Recursion;
+package recursion;
 
 public class SearchArray {
   static int searchArray(int[] arr, int index, int searchNum) {

@@ -1,4 +1,4 @@
-package Math;
+package math;
 
 // public class CLIGreet {
 //     public static void main(String args[]) {

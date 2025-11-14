@@ -1,4 +1,4 @@
-package MultiBranchRecursion;
+package multiBranchRecursion;
 
 public class DiceGameProb {
   static void diceGameProb(int start, int end, String result) {

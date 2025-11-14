@@ -1,4 +1,4 @@
-package MultiBranchRecursion;
+package multiBranchRecursion;
 
 public class CountSubSetArray {
   static void countSubSet(int arr[], int index, String result) {

@@ -1,4 +1,4 @@
-package Math;
+package math;
 public class UglyNumber {
   public static void main(String[] args) {
     int num = 14;

@@ -1,4 +1,4 @@
-package Recursion;
+package recursion;
 
 public class ArrayTraverse {
   static int[] doubledPrices(int prices[], int index) {

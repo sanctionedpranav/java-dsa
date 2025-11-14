@@ -1,4 +1,4 @@
-package Math;
+package math;
 
 public class NumberOfOnes {
   public static int countDigitOne(int num) {

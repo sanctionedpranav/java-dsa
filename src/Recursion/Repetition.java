@@ -1,4 +1,4 @@
-package Recursion;
+package recursion;
 
 public class Repetition {
   static void printName(int count) {

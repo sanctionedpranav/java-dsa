@@ -1,4 +1,4 @@
-package MultiBranchRecursion;
+package multiBranchRecursion;
 
 public class SubSequenceStr {
   static void subSeq(String str, String result) {

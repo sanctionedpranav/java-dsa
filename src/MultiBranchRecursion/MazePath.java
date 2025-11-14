@@ -1,4 +1,4 @@
-package MultiBranchRecursion;
+package multiBranchRecursion;
 
 public class MazePath {
   static void mazePath(int row, int col, int endRow, int endCol, String result) {

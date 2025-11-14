@@ -1,4 +1,4 @@
-package Recursion;
+package recursion;
 
 public class PrimeNumber {
   static void isPrimeNumber(int num, int divisor) {

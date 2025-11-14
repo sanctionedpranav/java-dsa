@@ -1,4 +1,4 @@
-package Recursion;
+package recursion;
 
 public class FreqCharString {
   static int freqCharString(String str) {

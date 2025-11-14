@@ -1,4 +1,4 @@
-package Recursion;
+package recursion;
 
 public class Tables {
   // static void printTable(int num, int end) {
