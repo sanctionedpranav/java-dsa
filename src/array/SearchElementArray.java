@@ -4,9 +4,9 @@ public class SearchElementArray {
   static void searchArray(int arr[]) {
     int num = 49;
 
-    for (int i : arr) {
-      if (i == num) {
-        System.out.println("Number Found...");
+    for (int i = 0; i <= arr.length - 1; i++) {
+      if (arr[i] == num) {
+        System.out.println("Number Found at index... " + i);
         return;
       }
     }
