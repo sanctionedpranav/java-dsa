@@ -8,7 +8,7 @@ public class SecondLargestElemArray {
     for (int i = 0; i <= arr.length - 1; i++) {
       if (arr[i] > firstLargest) {
         secondLargest = firstLargest;
-        firstLargest = arr[i]; 
+        firstLargest = arr[i];
       }
 
       if (arr[i] > secondLargest && arr[i] != firstLargest) {
