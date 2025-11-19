@@ -1,4 +1,4 @@
-package math;
+package array;
 
 public class MissingNumber {
   static int missingNumber(int[] nums) {
