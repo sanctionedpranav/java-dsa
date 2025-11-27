@@ -1,17 +1,17 @@
 package recursion;
 
 public class ReplaceChar {
-  static String replaceChar(String str) {
+  static String replaceChar(String str, char search, char replace) {
     if (str.isEmpty()) {
       return "";
     }
 
-    String replacedStr = replaceChar(str.substring(1));
+    String replacedStr = replaceChar(str.substring(1), search, replace);
 
     char firstChar = str.charAt(0);
 
-    if (firstChar == 'l') {
-      replacedStr = "x" + replacedStr;
+    if (firstChar == search) {
+      replacedStr = replace + replacedStr;
     } else {
       replacedStr = firstChar + replacedStr;
     }
@@ -24,7 +24,7 @@ public class ReplaceChar {
   public static void main(String[] args) {
     String str = "Hello";
 
-    String result = replaceChar(str);
+    String result = replaceChar(str, 'l', 'x');
     System.out.println(result);
   }
 }
